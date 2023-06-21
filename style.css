@@ -1,0 +1,339 @@
+
+/* Selects all the listed elements and resets their styles */
+body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, img, ul, ol, li, form, label, article, aside, figure, footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    list-style: none;
+    text-align: center;
+}
+
+/* Styles for paragraphs */
+p {
+    font-size: 1.2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+a:hover{
+	background: yellow;
+}
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* Styles for the CSS Zen Garden section */
+#css-zen-garden {
+    background-image: url('./images/psychedelic-paper-shapes-with-clouds-sun.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(120%);
+}
+
+/* Styles for the page wrapper */
+.page-wrapper {
+    max-width: 59%;
+    margin: 30px auto;
+    padding: 20px;
+    background-image: url('./images/psychedelic-paper-shapes-with-colorful-hearts.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+    /* Added transition effect */
+    transition-duration: .5s;
+	border-radius: 50px;
+}
+
+/* Hover effect for the page wrapper */
+.page-wrapper:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+}
+
+/* Styles for the intro section */
+.intro {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #098765;
+}
+
+/* Styles for h1 elements */
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+    /* Added transition effect */
+    transition-duration: .5s;
+}
+
+/* Hover effect for h1 elements */
+h1:hover {
+    color: #2e51f9;
+	font-size: 4rem;
+}
+
+/* Styles for h2 elements */
+h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Prompt', sans-serif;
+    /* Added transition effect */
+    transition-duration: .5s;
+}
+
+/* Hover effect for h2 elements */
+h2:hover {
+    color: #2e51f9;
+	font-size: 3rem;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Prompt', sans-serif;
+    /* Added transition effect */
+    transition-duration: .5s;
+}
+
+/* Hover effect for h2 elements */
+h3:hover {
+    color: #2e51f9;
+	font-size: 2.5rem;
+}
+
+/* Styles for the summary section */
+.summary {
+    margin-bottom: 20px;
+    /* Added transition effect */
+    transition-duration: .5s;
+}
+
+/* Hover effect for the summary section */
+.summary:hover {
+    color: #000;
+}
+
+/* Styles for p elements within the summary section */
+.summary p {
+    margin-bottom: 10px;
+    /* Added transition effect */
+    transition-duration: .5s;
+}
+
+/* Hover effect for p elements within the summary section */
+.summary p:hover {
+    color: #000;
+}
+
+/* Styles for the preamble section */
+.preamble {
+    margin-bottom: 40px;
+    /* Added transition effect */
+    transition-duration: .5s;
+}
+
+/* Hover effect for the preamble section */
+.preamble:hover {
+    color: #000;
+}
+
+/* Styles for h3 elements */
+h3 {
+    font-size: 2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Prompt', sans-serif;
+    /* Added transition effect */
+    transition-duration: .5s;
+}
+
+/* Hover effect for h3 elements */
+h3:hover {
+    color: #2e51f9;
+}
+
+/* Styles for the Zen Supporting section */
+#zen-supporting {
+    padding: 20px;
+   
+    margin-bottom: 20px;
+    color: #5f0caa;
+    /* Added transition effect */
+    transition-duration: .5s;
+}
+
+/* Hover effect for the Zen Supporting section */
+#zen-supporting:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+    transform: scale(1.05);
+    z-index: 1;
+    position: relative;
+    background-image: url('./images/FOREGROUND IMAGE.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	border-radius: 2em;
+}
+
+/* Hover effect for text within the Zen Supporting section */
+#zen-supporting:hover h3,
+#zen-supporting:hover p,
+#zen-supporting:hover a,
+#zen-supporting:hover li,
+#zen-supporting:hover span,
+#zen-supporting:hover div {
+    color: #000;;
+}
+
+/* Hover effect for images within the Zen Supporting section */
+#zen-supporting:hover img {
+    filter: brightness(1.1);
+}
+
+/* Styles for the explanation, participation, benefits, and requirements sections */
+.explanation,
+.participation,
+.benefits,
+.requirements {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+    /* Added transition effect */
+    transition-duration: .5s;
+	border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for the explanation, participation, benefits, and requirements sections */
+.explanation:hover,
+.participation:hover,
+.benefits:hover,
+.requirements:hover {
+    color: #000;
+}
+
+/* Styles for p elements within the explanation, participation, benefits, and requirements sections */
+.explanation p,
+.participation p,
+.benefits p,
+.requirements p {
+    margin-bottom: 10px;
+    /* Added transition effect */
+    transition-duration: .5s;
+}
+
+/* Hover effect for p elements within the explanation, participation, benefits, and requirements sections */
+.explanation p:hover,
+.participation p:hover,
+.benefits p:hover,
+.requirements p:hover {
+	color: #000;
+}
+
+/* Styles for the sidebar section */
+.sidebar {
+    background-image: url('./images/multicolored-psychedelic-paper-shapes.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* padding: 32px; */
+    position: fixed;
+    width: 19%;
+    top: 2px;
+    right: 2PX;
+    border-radius: 47px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+}
+
+/* Styles for h3 elements within the design selection section */
+.design-selection h3.select {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    /* Added transition effect */
+    transition-duration: .5s;
+}
+
+/* Hover effect for h3 elements within the design selection section */
+.design-selection h3.select:hover {
+    color: #5f0caa;
+}
+
+/* Styles for the design selection section */
+.design-selection {
+    margin-bottom: 40px;
+	border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.design-archives,
+.zen-resources{
+	border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.extra1{
+	position: fixed;
+	top: 0;
+	right: 309px;
+}
+.extra1 > img{
+	position: fixed;
+    width: 35px;
+	--m:
+	radial-gradient(circle farthest-side at right,#000 99%,#0000) 
+	0 100%/46% 92% no-repeat,
+  radial-gradient(circle farthest-side at left ,#000 99%,#0000) 
+	100% 0/46% 92% no-repeat;
+-webkit-mask: var(--m);
+		mask: var(--m);
+filter: grayscale(.5);
+transition: .3s linear;
+cursor: pointer;
+}
+.extra1 > img:hover{
+ -webkit-mask-position: 7.5% 50%,92.5% 50%;
+          mask-position: 7.5% 50%,92.5% 50%;
+  filter: grayscale(0);
+}
+/* Styles for the footer section */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    /* Added transition effect */
+    transition-duration: .5s;
+	font-family: 'Cherry Bomb One', cursive;
+}
+footer> h3{
+color: black;
+
+}
+
+footer>a{
+	border: #181818;
+	border-radius: 2em;
+	border: #181818 solid 0.2em;
+	padding: 1vw;
+	text-decoration: none;
+	transition: border-bottom 1s;
+	transition: border-left 1s;
+	
+}
+footer>a:hover {
+	color: black;
+	border: #181818;
+	border-radius: 2em;
+	border: #181818 solid 0.2em;
+	border-bottom: black solid 0.5em;
+	border-left: black solid 0.5em;
+	background-color: whitesmoke;
+}
